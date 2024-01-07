@@ -117,11 +117,18 @@ img {
   display: flex;
   margin-left: auto;
 }
+.header-address-item {
+  display: flex;
+  align-items: center;
+}
 
 .header-address-item:not(:last-child) {
   margin-right: 50px;
 }
-
+.header-address-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
 .header-address-link {
   color: var(--prime-color);
 
@@ -135,9 +142,15 @@ img {
 /* Головна сторинка */
 /* Герой */
 
+.section.hero {
+  background-image: url(../images/background-hero.png),
+    url(../images/overly.png), url(../images/background-hero1.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* background-color: var(--black-background); */
+}
 .hero {
   color: var(--logo-whitecolor);
-  background-color: var(--black-background);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -262,6 +275,27 @@ img {
 .team-text-wrap {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+.clients {
+  display: flex;
+  justify-content: center;
+}
+
+.clients-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-item {
+  display: block;
+  border-radius: 1px;
+  border: 1px solid #afb1b8;
+
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+
+  fill: currentColor;
 }
 
 /* Сторинка Портфоліо */
