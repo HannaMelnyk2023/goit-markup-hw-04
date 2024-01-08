@@ -188,6 +188,7 @@ img {
 }
 
 /*  Особливості */
+
 .section.feature {
   padding-bottom: 0;
 }
@@ -197,6 +198,16 @@ img {
 
 .feature-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.feature-icon {
+  display: block;
+  margin-bottom: 30px;
+  padding-left: 100px;
+  padding-top: 25px;
+  padding-right: 100px;
+  padding-bottom: 25px;
+  background-color: var(--second-white-background);
 }
 
 .feature-title {
